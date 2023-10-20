@@ -18,7 +18,7 @@ const CampSite = ({
     <div
       className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}
     >
-      <div className="flex h-full flex-col items-start justify-between p-6 lgLpx-20 lg:py-10">
+      <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
         {" "}
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-green-50 p-4">
@@ -80,7 +80,7 @@ const Camp = () => {
             adventure{" "}
           </p>
           <Image
-            className="camp-quote"
+            className="inline-block h-10 w-10 rounded-full"
             src="/quote.svg"
             alt="quote"
             width={186}
